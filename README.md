@@ -4,6 +4,43 @@ Fixes: `Legacy octal escape is not permitted in strict mode`
 ===========================================
 ```Replaced octal number with hex number```
 
+How to use:
+
+Yarn:
+```json
+"resolutions": {
+  "ansi-color": "github:OMikkel/commonjs-ansi-color-fixed#master"
+}
+```
+
+npm: 
+```json
+"overrides": {
+  "ansi-color": "github:OMikkel/commonjs-ansi-color-fixed#master"
+}
+```
+
+pnpm:
+```json
+"pnpm": {
+  "overrides": {
+    "ansi-color": "github:OMikkel/commonjs-ansi-color-fixed#master"
+  }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 This CommonJS module provides basic ANSI color code support, to allow you to
 format your console output with foreground and background colors as well as
 providing bold and underline support.
