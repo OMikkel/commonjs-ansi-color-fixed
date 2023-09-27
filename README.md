@@ -1,5 +1,8 @@
-ANSI Color Code Output Support for CommonJS + Node.js
+(FIXED) - ANSI Color Code Output Support for CommonJS + Node.js
 ===========================================
+Fixes: `Legacy octal escape is not permitted in strict mode`
+===========================================
+```Replaced octal number with hex number```
 
 This CommonJS module provides basic ANSI color code support, to allow you to
 format your console output with foreground and background colors as well as
